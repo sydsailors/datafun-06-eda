@@ -1,6 +1,6 @@
 # datafun-06-eda
 
-This project uses Jupyter to perform exploratory data analysis (EDA) on the Penguins dataset. 
+This project uses Jupyter to perform exploratory data analysis (EDA) on the Penguins dataset. This dataset shows the measurements of bills, flippers, and body mass for three species of penguins observed in Palmer Archipelago. The dataset can be found at [penguins](https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv)
 
 Steps already completed:
 1. [Set up the Machine](https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/MACHINE-SETUP.md)
