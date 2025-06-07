@@ -13,13 +13,19 @@ Steps already completed:
 git pull origin main
 ```
 
-2. Activate the Project Virtual Environment
+2. Create Virtual Environment
+
+```powershell
+python3 -m venv .venv
+```
+
+3. Activate the Project Virtual Environment
 
 ```powershell
 source .venv/bin/activate
 ```
 
-3. Install Dependencies As Needed 
+4.  Install Dependencies As Needed 
 
 ```powershell
 source .venv/bin/activate
@@ -27,7 +33,7 @@ python3 -m pip install --upgrade pip setuptools wheel
 python3 -m pip install -r requirements.txt
 ```
 
-4. Run Script 
+5. Run Script 
 
 ```powershell
 source .venv/bin/activate
