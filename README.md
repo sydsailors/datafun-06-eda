@@ -77,4 +77,16 @@ penguins_df.shape
 penguins_df.dtypes
 penguins_df.info()
 ```
-- 
+- Perform initial descriptive statistics
+```python
+penguins_df.describe()
+```
+- Create initial data distribution for numerical columns
+
+- Create initial data distribution for categorical columns
+
+- Perform initial data transformation and feature engineering
+```python
+penguins_df.rename(columns={'flipper_length_mm': 'Flipper Length'}, inplace=True)
+penguins_df['Bill Area'] = penguins_df['bill_length_mm'] * penguins_df['bill_depth_mm']
+```
