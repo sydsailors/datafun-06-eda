@@ -162,7 +162,7 @@ pyttsx3
 
 # Next-generation web-based interactive development environment for Jupyter notebooks, code, and data.
 # Offers a more feature-rich and versatile experience than the classic Jupyter Notebook. (60-70 MB)
-# jupyterlab
+jupyterlab
 
 # Core IPython package that provides an enhanced interactive Python shell (10-15 MB).
 ipython
@@ -225,7 +225,8 @@ ipywidgets
 # numpy
 
 # Data manipulation and analysis (built on numpy, 10-20 MB)
-# pandas
+pandas
+pyarrow
 
 # High-performance DataFrame library for large datasets (Rust-based, fast) (~5-10 MB)
 # polars
