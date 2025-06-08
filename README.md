@@ -46,3 +46,14 @@ git add .
 git commit -m "custom message"
 git push -u origin main
 ```
+
+## Create Jupyter Notebook and Select Kernel
+- Create new Jupyter notebook: Command + Shift + P then type "Create: New Jupyter Notebook"
+- Rename notebook: File -> Save As...
+- Set kernel: click "Select Kernel" in top right corner and select local .venv
+
+### Markdown Cells
+- text-based content (formatting, lists, headings)
+
+### Code Cells
+- write and run programming (e.g. Python) code 
