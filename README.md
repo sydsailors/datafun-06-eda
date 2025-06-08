@@ -57,3 +57,6 @@ git push -u origin main
 
 ### Code Cells
 - write and run programming (e.g. Python) code 
+
+## Exploratory Data Analysis (EDA) on Penguins Dataset
+
