@@ -59,4 +59,28 @@ git push -u origin main
 - write and run programming (e.g. Python) code 
 
 ## Exploratory Data Analysis (EDA) on Penguins Dataset
-
+- Import dependencies
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib
+import numpy
+import jupyterlab
+import matplotlib.pyplot as plt
+from matplotlib.axes import Axes
+```
+- Load the Penguins dataset using seaborn's built-in datasets
+- Perform initial data inspection 
+```python
+penguins_df.head(10)
+```
+```python
+penguins_df.shape
+```
+```python
+penguins_df.dtypes
+```
+```python
+penguins_df.info()
+```
+- 
