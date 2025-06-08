@@ -105,6 +105,7 @@ penguins_df.rename(columns={'flipper_length_mm': 'Flipper Length'}, inplace=True
 penguins_df['Bill Area'] = penguins_df['bill_length_mm'] * penguins_df['bill_depth_mm']
 ```
 - Create initial visualizations 
+
 Pairplot
 ```python
 sns.pairplot(penguins_df, hue='species')
