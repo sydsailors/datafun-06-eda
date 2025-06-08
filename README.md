@@ -82,8 +82,22 @@ penguins_df.info()
 penguins_df.describe()
 ```
 - Create initial data distribution for numerical columns
+```python
+penguins_df['flipper_length_mm'].hist()
+penguins_df.hist()
+matplotlib.pyplot.show()
+```
 
 - Create initial data distribution for categorical columns
+```python
+penguins_df['species'].value_counts()
+for col in penguins_df.select_dtypes(include=['object', 'category']).columns:
+    # Display count plot
+    sns.countplot(x=col, data=penguins_df)
+    matplotlib.pyplot.title(f'Distribution of {col}')
+    matplotlib.pyplot.show()
+matplotlib.pyplot.show()
+```
 
 - Perform initial data transformation and feature engineering
 ```python
