@@ -90,4 +90,29 @@ penguins_df.describe()
 penguins_df.rename(columns={'flipper_length_mm': 'Flipper Length'}, inplace=True)
 penguins_df['Bill Area'] = penguins_df['bill_length_mm'] * penguins_df['bill_depth_mm']
 ```
-- 
+- Create initial visualizations 
+  - Pairplot
+```python
+sns.pairplot(penguins_df, hue='species')
+matplotlib.pyplot.show()
+```
+  - Scatterplot
+```python
+scatter_plt: Axes= sns.scatterplot(
+    data=penguins_df, x="Flipper Length", y="body_mass_g", hue="species", style="sex"
+)
+scatter_plt.set_xlabel("Flipper Length (mm)")
+scatter_plt.set_ylabel("Body Mass (g)")
+scatter_plt.set_title("Flipper Length vs. Body Mass (by Sex)")
+matplotlib.pyplot.show()
+```
+  - Heatmap
+```python
+correlation_matrix = penguins_df.corr(numeric_only=True)
+print("Correlation Matrix")
+print(correlation_matrix)
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
+plt.title('Penguins Dataset Heatmap')
+plt.show()
+```
