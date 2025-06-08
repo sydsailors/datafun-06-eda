@@ -73,14 +73,8 @@ from matplotlib.axes import Axes
 - Perform initial data inspection 
 ```python
 penguins_df.head(10)
-```
-```python
 penguins_df.shape
-```
-```python
 penguins_df.dtypes
-```
-```python
 penguins_df.info()
 ```
 - 
